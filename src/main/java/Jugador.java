@@ -9,5 +9,7 @@
  * @author a
  */
 public class Jugador {
-    
+    String nombre;
+    int votos;
+    int id;
 }
