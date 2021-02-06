@@ -42,6 +42,12 @@ public class Jugador {
     public void setVotos(int votos) {
         this.votos = votos;
     }
+
+    @Override
+    public String toString() {
+        return "Jugador{" + "nombre=" + nombre + ", votos=" + votos + ", id=" + id + '}';
+    }
     
     
+
 }
